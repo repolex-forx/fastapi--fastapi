@@ -1,0 +1,7 @@
+[2026-09-20T05:12:08Z] === AST ITERATION 1 START | repo=fastapi/fastapi sha=25a3697c ===
+[2026-09-20T05:12:08Z] [iter=1] PHASE START: ast repo=fastapi/fastapi sha=25a3697c
+[2026-09-20T05:12:08Z] [iter=1] Building AST aggregate chunks
+[2026-09-20T05:17:28Z] [iter=1] AST chunks built count=1 triples=4357587
+[2026-09-20T05:17:28Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/25a3697cedc6e7dfb84e93c8ff965801486f00f4/.complete
+[2026-09-20T05:17:28Z] [iter=1] PHASE END: ast elapsed_s=320 elapsed_min=5.3
+[2026-09-20T05:17:28Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
