@@ -1,0 +1,70 @@
+[2026-09-22T12:18:31Z] === ENRICH ITERATION 2 START | repo=fastapi/fastapi sha=12ea7be0 ===
+[2026-09-22T12:18:31Z] [iter=2] PHASE START: enrich repo=fastapi/fastapi sha=12ea7be0 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/12ea7be0-enrich-iter-002.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/12ea7be0bed9dc13a4dd859a7c96970355140333.nq.gz
+[2026-09-22T12:18:40Z] [iter=2] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-09-22T12:19:18Z] [iter=2] AST store loaded triples=4351089 load_secs=36 mem_mb=989 MB
+[2026-09-22T12:19:18Z] [iter=2] Step 2: Finding LSP targets mem_mb=989 MB
+[2026-09-22T12:19:21Z] [iter=2] LSP targets found call_sites=15451 imports=0 extends=0 implements=0 secs=3
+[2026-09-22T12:19:23Z] [iter=2] Loaded checkpoint partial graph triples=52037
+[2026-09-22T12:19:25Z] [iter=2] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=989 MB
+[2026-09-22T12:19:53Z] [iter=2] Position index built positions=303697 nodes_with_types=403924 secs=28 mem_mb=1068 MB
+[2026-09-22T12:19:53Z] [iter=2] Step 3: Starting LSP resolution mem_mb=1068 MB already_completed_types=[] already_completed_files=500
+[2026-09-22T12:19:53Z] [iter=2] Resolving target type target_type=call_site count=15451
+[2026-09-22T12:19:54Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=1.4 files_done=0 resolved=0 errors=0 current=docs_src/path_operation_advanced_configuration/tutorial002_py310.py
+[2026-09-22T12:20:44Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=2.2 files_done=12 resolved=18 errors=25 current=tests/test_infer_param_optionality.py
+[2026-09-22T12:21:28Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=2.9 files_done=14 resolved=18 errors=49 current=docs_src/security/tutorial001_py310.py
+[2026-09-22T12:22:05Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=3.6 files_done=23 resolved=28 errors=69 current=tests/test_tutorial/test_query_params_str_validations/test_tutorial003.py
+[2026-09-22T12:22:37Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=4.1 files_done=30 resolved=39 errors=86 current=tests/test_tutorial/test_background_tasks/test_tutorial001.py
+[2026-09-22T12:23:08Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=4.6 files_done=35 resolved=54 errors=103 current=tests/test_tutorial/test_custom_response/test_tutorial006c.py
+[2026-09-22T12:23:41Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=5.2 files_done=42 resolved=56 errors=121 current=docs_src/dependencies/tutorial005_an_py310.py
+[2026-09-22T12:24:12Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=5.7 files_done=53 resolved=82 errors=137 current=scripts/tests/test_translation_fixer/test_code_blocks/test_code_blocks_lines_number_mismatch.py
+[2026-09-22T12:24:43Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=6.2 files_done=64 resolved=97 errors=153 current=tests/test_tutorial/test_testing/test_main_b.py
+[2026-09-22T12:25:17Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=6.8 files_done=82 resolved=110 errors=170 current=tests/test_tutorial/test_query_params_str_validations/test_tutorial012.py
+[2026-09-22T12:25:51Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=7.3 files_done=90 resolved=123 errors=188 current=tests/test_application.py
+[2026-09-22T12:26:23Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=7.9 files_done=101 resolved=136 errors=205 current=tests/test_tutorial/test_response_model/test_tutorial003_04.py
+[2026-09-22T12:27:02Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=8.5 files_done=108 resolved=146 errors=226 current=docs_src/query_params/tutorial002_py310.py
+[2026-09-22T12:27:41Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=9.2 files_done=116 resolved=152 errors=247 current=docs_src/query_params_str_validations/tutorial010_an_py310.py
+[2026-09-22T12:28:12Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=9.7 files_done=120 resolved=162 errors=263 current=docs_src/cookie_param_models/tutorial001_py310.py
+[2026-09-22T12:29:02Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=10.5 files_done=125 resolved=164 errors=290 current=tests/test_tutorial/test_dependencies/test_tutorial008c.py
+[2026-09-22T12:29:39Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=11.1 files_done=136 resolved=171 errors=310 current=docs_src/dependencies/tutorial012_py310.py
+[2026-09-22T12:30:11Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=11.7 files_done=142 resolved=174 errors=327 current=tests/test_openapi_route_extensions.py
+[2026-09-22T12:30:45Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=12.2 files_done=151 resolved=191 errors=345 current=docs_src/python_types/tutorial011_py310.py
+[2026-09-22T12:31:18Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=12.8 files_done=156 resolved=195 errors=363 current=tests/test_tutorial/test_behind_a_proxy/test_tutorial001_01.py
+[2026-09-22T12:31:53Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=13.4 files_done=162 resolved=195 errors=382 current=tests/test_tutorial/test_strict_content_type/test_tutorial001.py
+[2026-09-22T12:32:25Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=13.9 files_done=171 resolved=199 errors=399 current=tests/test_tutorial/test_dependencies/test_tutorial006.py
+[2026-09-22T12:32:59Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=14.5 files_done=177 resolved=207 errors=417 current=docs_src/query_params_str_validations/tutorial012_py310.py
+[2026-09-22T12:33:30Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=15.0 files_done=185 resolved=211 errors=434 current=docs_src/dependencies/tutorial014_an_py310.py
+[2026-09-22T12:34:05Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=15.6 files_done=192 resolved=214 errors=453 current=docs_src/path_params_numeric_validations/tutorial001_py310.py
+[2026-09-22T12:34:38Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=16.1 files_done=200 resolved=217 errors=471 current=tests/test_tutorial/test_cors/test_tutorial001.py
+[2026-09-22T12:35:14Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=16.7 files_done=210 resolved=222 errors=490 current=docs_src/dependencies/tutorial010_py310.py
+[2026-09-22T12:35:49Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=17.3 files_done=216 resolved=224 errors=509 current=docs_src/security/tutorial007_an_py310.py
+[2026-09-22T12:36:22Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=17.8 files_done=224 resolved=230 errors=527 current=tests/test_tutorial/test_dataclasses/test_tutorial002.py
+[2026-09-22T12:36:56Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=18.4 files_done=234 resolved=232 errors=545 current=docs_src/websockets_/tutorial002_an_py310.py
+[2026-09-22T12:37:31Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=19.0 files_done=239 resolved=234 errors=564 current=docs_src/encoder/tutorial001_py310.py
+[2026-09-22T12:38:07Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=19.6 files_done=248 resolved=242 errors=583 current=docs_src/request_form_models/tutorial002_an_py310.py
+[2026-09-22T12:38:38Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=20.1 files_done=257 resolved=252 errors=600 current=docs_src/path_operation_configuration/tutorial002_py310.py
+[2026-09-22T12:39:12Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=20.7 files_done=262 resolved=255 errors=618 current=docs_src/query_params/tutorial005_py310.py
+[2026-09-22T12:39:45Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=21.2 files_done=266 resolved=257 errors=636 current=docs_src/custom_response/tutorial006b_py310.py
+[2026-09-22T12:40:17Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=21.8 files_done=276 resolved=260 errors=653 current=docs_src/app_testing/tutorial004_py310.py
+[2026-09-22T12:40:50Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=22.3 files_done=284 resolved=263 errors=671 current=docs_src/request_forms/tutorial001_an_py310.py
+[2026-09-22T12:41:24Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=22.9 files_done=292 resolved=268 errors=689 current=docs_src/using_request_directly/tutorial001_py310.py
+[2026-09-22T12:42:01Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=23.5 files_done=301 resolved=270 errors=709 current=tests/test_starlette_urlconvertors.py
+[2026-09-22T12:42:35Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=24.1 files_done=306 resolved=272 errors=727 current=tests/test_return_none_stringified_annotations.py
+[2026-09-22T12:43:08Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=24.6 files_done=312 resolved=274 errors=745 current=docs_src/body_nested_models/tutorial004_py310.py
+[2026-09-22T12:43:42Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=25.2 files_done=321 resolved=281 errors=763 current=tests/test_tutorial/test_testing/test_tutorial001.py
+[2026-09-22T12:44:13Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=25.7 files_done=330 resolved=283 errors=780 current=docs_src/custom_response/tutorial001_py310.py
+[2026-09-22T12:44:43Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=26.2 files_done=336 resolved=286 errors=796 current=fastapi/concurrency.py
+[2026-09-22T12:45:16Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=26.7 files_done=344 resolved=299 errors=813 current=docs_src/conditional_openapi/tutorial001_py310.py
+[2026-09-22T12:45:50Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=27.3 files_done=352 resolved=301 errors=831 current=docs_src/query_params_str_validations/tutorial007_py310.py
+[2026-09-22T12:46:21Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=27.8 files_done=359 resolved=305 errors=848 current=docs_src/response_change_status_code/tutorial001_py310.py
+[2026-09-22T12:46:53Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=28.4 files_done=369 resolved=308 errors=865 current=docs_src/first_steps/tutorial003_py310.py
+[2026-09-22T12:47:24Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=28.9 files_done=376 resolved=311 errors=882 current=docs_src/settings/tutorial001_py310.py
+[2026-09-22T12:47:56Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=29.4 files_done=385 resolved=312 errors=899 current=tests/test_tutorial/test_response_cookies/test_tutorial002.py
+[2026-09-22T12:48:27Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=29.9 files_done=398 resolved=313 errors=916 current=docs_src/path_operation_advanced_configuration/tutorial003_py310.py
+[2026-09-22T12:48:59Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=30.5 files_done=407 resolved=315 errors=933 current=docs_src/dataclasses_/tutorial001_py310.py
+[2026-09-22T12:49:43Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=31.2 files_done=410 resolved=362 errors=955 current=docs/en/docs/js/custom.js
+[2026-09-22T12:50:14Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=31.7 files_done=411 resolved=410 errors=972 current=docs_src/generate_clients/tutorial004.js
+[2026-09-22T12:50:17Z] [iter=2] Target type resolved target_type=call_site resolved=416 errors=973 secs=1824 mem_mb=1069 MB
+[2026-09-22T12:50:42Z] [iter=2] Step 5: Writing final enrichment file triples=129579
+[2026-09-22T12:50:43Z] [iter=2] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/12ea7be0bed9dc13a4dd859a7c96970355140333.nq.gz size_kb=3227
+[2026-09-22T12:50:43Z] [iter=2] Checkpoint cleared (enrichment complete)
+[2026-09-22T12:50:43Z] [iter=2] PHASE END: enrich elapsed_s=1932 elapsed_min=32.2 total_triples=129579

@@ -14856,6 +14856,196 @@
         "blob/4eb098a88fab4922293980446351b1d9e23445ff.nq.gz",
         "blob/3a2e6fa24ea0bac36ca50f3130cbde01ffc58a78.nq.gz",
         "blob/e23ac0ac5185d56b49d40cd85788b8c87f3e7b1c.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/12ea7be0bed9dc13a4dd859a7c96970355140333.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "starlette",
+          "ecosystem": "PYPI",
+          "version": "0.46.0",
+          "githubOrg": "Kludex",
+          "githubRepo": "starlette",
+          "githubCommit": "a404872b9192297ccfe93ff036faf884e4d35c08",
+          "githubTag": "0.46.0",
+          "githubUrl": "https://github.com/Kludex/starlette",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pydantic",
+          "ecosystem": "PYPI",
+          "version": "2.7.0",
+          "githubOrg": "pydantic",
+          "githubRepo": "pydantic",
+          "githubCommit": "7af856a1098406aea84bcadfd0f3de6b7901526c",
+          "githubTag": "v2.7.0",
+          "githubUrl": "https://github.com/pydantic/pydantic",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "typing-extensions",
+          "ecosystem": "PYPI",
+          "version": "4.8.0",
+          "githubOrg": "python",
+          "githubRepo": "typing_extensions",
+          "githubCommit": "c17c499b865585458bc334a1f895ebaedd2ab854",
+          "githubTag": "4.8.0",
+          "githubUrl": "https://github.com/python/typing_extensions",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "typing-inspection",
+          "ecosystem": "PYPI",
+          "version": "0.4.2",
+          "githubOrg": "pydantic",
+          "githubRepo": "typing-inspection",
+          "githubCommit": "8db011350942f33ac4b5d7db60d4d9ea83ab480f",
+          "githubTag": "v0.4.2",
+          "githubUrl": "https://github.com/pydantic/typing-inspection",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "annotated-doc",
+          "ecosystem": "PYPI",
+          "version": "0.0.2",
+          "githubOrg": "fastapi",
+          "githubRepo": "annotated-doc",
+          "githubCommit": "4cff021a7cc5fe3009a49ec655f2e3e920f73e0c",
+          "githubTag": "0.0.2",
+          "githubUrl": "https://github.com/fastapi/annotated-doc",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "fastapi-cli",
+          "ecosystem": "PYPI",
+          "version": "0.0.8",
+          "githubOrg": "fastapi",
+          "githubRepo": "fastapi-cli",
+          "githubCommit": "77e6d1f7dea4b783d9e2080d98f6bb83234a2efc",
+          "githubTag": "0.0.8",
+          "githubUrl": "https://github.com/fastapi/fastapi-cli",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "httpx",
+          "ecosystem": "PYPI",
+          "version": "0.23.0",
+          "githubOrg": "encode",
+          "githubRepo": "httpx",
+          "githubCommit": "89cdd903b2f339c6ae319773c31b8c9352bd9cd8",
+          "githubTag": "0.23.0",
+          "githubUrl": "https://github.com/encode/httpx",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "jinja2",
+          "ecosystem": "PYPI",
+          "version": "3.1.5",
+          "githubOrg": "pallets",
+          "githubRepo": "jinja",
+          "githubCommit": "877f6e51be8e1765b06d911cfaa9033775f051d1",
+          "githubTag": "3.1.5",
+          "githubUrl": "https://github.com/pallets/jinja",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "python-multipart",
+          "ecosystem": "PYPI",
+          "version": "0.0.18",
+          "githubOrg": "Kludex",
+          "githubRepo": "python-multipart",
+          "githubCommit": "5b1aed83adadbff1677779cd0df53723cd80a0d6",
+          "githubTag": "0.0.18",
+          "githubUrl": "https://github.com/Kludex/python-multipart",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "email-validator",
+          "ecosystem": "PYPI",
+          "version": "2.0.0",
+          "githubOrg": "JoshData",
+          "githubRepo": "python-email-validator",
+          "githubCommit": "1b3e4c669499cc966c55bc87a11d2cc0a633f726",
+          "githubTag": "v2.0.0",
+          "githubUrl": "https://github.com/JoshData/python-email-validator",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "uvicorn",
+          "ecosystem": "PYPI",
+          "version": "0.12.0",
+          "githubOrg": "sponsors",
+          "githubRepo": "Kludex",
+          "githubUrl": "https://github.com/sponsors/Kludex",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pydantic-settings",
+          "ecosystem": "PYPI",
+          "version": "2.0.0",
+          "githubOrg": "pydantic",
+          "githubRepo": "pydantic-settings",
+          "githubCommit": "107e8def2c0cc6d187bfdece1ab3200e26f3a908",
+          "githubTag": "v2.0.0",
+          "githubUrl": "https://github.com/pydantic/pydantic-settings",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pydantic-extra-types",
+          "ecosystem": "PYPI",
+          "version": "2.0.0",
+          "githubOrg": "pydantic",
+          "githubRepo": "pydantic-extra-types",
+          "githubCommit": "94cad5fcf049a64802dbddf150de0871ed27dfeb",
+          "githubTag": "v2.0.0",
+          "githubUrl": "https://github.com/pydantic/pydantic-extra-types",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "itsdangerous",
+          "ecosystem": "PYPI",
+          "version": "1.1.0",
+          "githubOrg": "pallets",
+          "githubRepo": "itsdangerous",
+          "githubCommit": "6e6359864be6055860adf1e11d8bb0db69ff1840",
+          "githubTag": "1.1.0",
+          "githubUrl": "https://github.com/pallets/itsdangerous",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pyyaml",
+          "ecosystem": "PYPI",
+          "version": "5.3.1",
+          "githubOrg": "yaml",
+          "githubRepo": "pyyaml",
+          "githubCommit": "538b5c93f7d5dee40322893c1e524e94a4f8bbde",
+          "githubTag": "5.3.1",
+          "githubUrl": "https://github.com/yaml/pyyaml",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "typer",
+          "ecosystem": "PYPI",
+          "version": "0.27.2",
+          "githubOrg": "fastapi",
+          "githubRepo": "typer",
+          "githubCommit": "99eb220df7c69a0f14a0b69214042677e0760b9d",
+          "githubTag": "0.27.2",
+          "githubUrl": "https://github.com/fastapi/typer",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/typer/testing.py"
+        },
+        {
+          "packageName": "anyio",
+          "ecosystem": "PYPI",
+          "version": "4.15.1",
+          "githubOrg": "agronholm",
+          "githubRepo": "anyio",
+          "githubCommit": "ffcd1542cd6d127980205f90a0100078849dd703",
+          "githubTag": "4.15.1",
+          "githubUrl": "https://github.com/agronholm/anyio",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/anyio/_core/_synchronization.py"
+        }
       ]
     }
   ],
