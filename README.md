@@ -6,29 +6,27 @@ RDF knowledge graph data for [fastapi/fastapi](https://github.com/fastapi/fastap
 
 ## How to use this data
 
-The easiest way to get started is to install the [lexq](https://github.com/repolex-ai/lexq) query tool using [uv](https://docs.astral.sh/uv/getting-started/installation/).
-
-If you have uv installed, just copy/paste this into your terminal:
+The easiest way to get started is to install the [rlex](https://github.com/repolex-ai/rlex) query tool:
 
 ```bash
-uv tool install git+https://github.com/repolex-ai/lexq
+cargo install --git https://github.com/repolex-ai/rlex
 ```
 
-This installs lexq onto your system, in your user context. Verify the install:
+Verify the install:
 
 ```bash
-lexq --help
+rlex --help
 ```
 
-**lexq is designed to be used primarily by LLMs in a terminal.** Start up your favorite LLM and ask it to use the lexq tool. It's that easy!
+**rlex is designed to be used primarily by LLMs in a terminal.** Start up your favorite AI assistant and ask it to use rlex. It handles the SPARQL — you just ask questions in plain English.
 
 To load this repo's data:
 
 ```bash
-lexq download fastapi/fastapi
+rlex download fastapi/fastapi
 ```
 
-This will automatically download essential data files from the last parsed commit. Consult `lexq --moreinfo` for other options, including downloading multiple commits, blobs, etc.
+Consult `rlex --help` for other options, including SPARQL queries, HTTP server, and interactive visualization.
 
 ## Data structure
 
@@ -38,6 +36,8 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 .
 ├── aggregate
 │   ├── ast
+│   │   ├── 12ea7be0bed9dc13a4dd859a7c96970355140333
+│   │   │   └── chunk-001.nq.gz
 │   │   ├── 1f442c454f2f74c7419f83c203e6333955399528
 │   │   │   └── chunk-001.nq.gz
 │   │   ├── 25a3697cedc6e7dfb84e93c8ff965801486f00f4
@@ -47,11 +47,14 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   │   └── ca5f60ee72f35fb2134d8b5d26bbb75965bcff66
 │   │       └── chunk-001.nq.gz
 │   ├── lsp
+│   │   ├── 12ea7be0bed9dc13a4dd859a7c96970355140333.nq.gz
 │   │   ├── 1f442c454f2f74c7419f83c203e6333955399528.nq.gz
 │   │   ├── 25a3697cedc6e7dfb84e93c8ff965801486f00f4.nq.gz
 │   │   ├── 3c08b05ea6b58b3e5564c026f071cbb0979a6797.nq.gz
 │   │   └── ca5f60ee72f35fb2134d8b5d26bbb75965bcff66.nq.gz
 │   └── repolex
+│       ├── 12ea7be0bed9dc13a4dd859a7c96970355140333
+│       │   └── chunk-001.nq.gz
 │       ├── 1f442c454f2f74c7419f83c203e6333955399528
 │       │   └── chunk-001.nq.gz
 │       ├── 25a3697cedc6e7dfb84e93c8ff965801486f00f4
@@ -245,12 +248,9 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
     ├── 0b920c3b388e48454d329d2eaf05dbb7e18dfe4e.nq.gz
     ├── 0ba4f8af68c80acc1330c456c6f6771abcfca08e.nq.gz
     ├── 0ba586c1c1ff419b5a9422af9b1d43e784de9709.nq.gz
-    ├── 0ba5cca752b7c727f8c6da8aaac80d919ca29f78.nq.gz
-    ├── 0bacbb39472316d68e5e6652d1859e7e5df6f163.nq.gz
-    ├── 0bc17a00e12537909fa56f46e916a88bfeddaf8c.nq.gz
-    └── 0bc3dbb2d17df506ae8edcde0d826c5c06e36e99.nq.gz
+    └── 0ba5cca752b7c727f8c6da8aaac80d919ca29f78.nq.gz
 
-14 directories, 200 files
+16 directories, 200 files
 ```
 
 | Directory | What it contains |
@@ -264,10 +264,11 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 | `branch/` | Branch metadata. |
 | `tag/` | Tag metadata. |
 | `filetree/` | File tree snapshots per commit (which files existed and their blob SHAs). |
+| `audit/` | Code architecture and graph audit reports per commit. |
 
 ## Source repository
 
 [fastapi/fastapi](https://github.com/fastapi/fastapi)
 
 ---
-*Parsed on 2026-09-21 by [repolex](https://repolex.ai)*
+*Parsed on 2026-09-25 by [repolex](https://repolex.ai)*
