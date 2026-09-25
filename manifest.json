@@ -15046,7 +15046,12 @@
           "source": "lsp",
           "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/anyio/_core/_synchronization.py"
         }
-      ]
+      ],
+      "ast": [
+        "aggregate/ast/12ea7be0bed9dc13a4dd859a7c96970355140333/chunk-001.nq.gz"
+      ],
+      "repolex": "aggregate/repolex/12ea7be0bed9dc13a4dd859a7c96970355140333/chunk-001.nq.gz",
+      "dep": "dep/12ea7be0bed9dc13a4dd859a7c96970355140333.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
