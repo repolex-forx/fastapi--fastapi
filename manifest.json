@@ -19320,6 +19320,9 @@
         "blob/7def525fa6ed16239afd09445a42bf9cd79e3781.nq.gz",
         "blob/3aa4d2dcf8cce53386bc8b5cb79084b21ef892c5.nq.gz",
         "blob/d74da5b73eb305a11a40ba70b7a9c03b81be1786.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/48d58ae3b6ef4ded5a4794618c00345667256d98/chunk-001.nq.gz"
       ]
     }
   ],
